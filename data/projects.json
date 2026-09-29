@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "id": "koica-paraguay",
+      "category": "International Development",
+      "title": "KOICA 프로젝트 봉사단 · Paraguay",
+      "subtitle": "노인복지센터 현장에서 홍보·콘텐츠 운영 구조를 정리한 경험",
+      "period": "",
+      "location": "Asunción, Paraguay",
+      "role": "KOICA 프로젝트 봉사단 · 홍보/캠페인팀",
+      "summary": "파라과이 현장에서 프로그램, 캠페인, 홍보 활동을 수행하며 국제개발협력 사업의 실행 과정을 경험했습니다.",
+      "featured": true,
+      "evidence": [
+        { "competency": "program-field-operations", "label": "파라과이 프로그램·캠페인 활동" },
+        { "competency": "documentation-organization", "label": "콘텐츠 일정·담당자 구조화" }
+      ],
+      "overview": "파라과이 아순시온의 노인복지센터를 기반으로 KOICA 프로젝트 봉사단 활동에 참여했습니다. 홍보·캠페인팀 구성원으로 프로그램과 캠페인, 콘텐츠 제작을 수행하며 국제개발협력 사업의 현장 실행 과정을 경험했습니다.",
+      "responsibilities": [
+        "SNS 및 콘텐츠 운영",
+        "만성질환 인식개선 캠페인 활동",
+        "온·오프라인 사진전 활동",
+        "성과공유회 영상 제작",
+        "현수막, 배너, 티셔츠, 리플렛 등 홍보물 제작",
+        "콘텐츠 일정 및 담당자 구조화"
+      ],
+      "challenge": "콘텐츠 제작과 게시 과정에서 일정 중복, 업로드 누락, 담당자 혼선 등의 운영 문제가 발생했습니다. 콘텐츠별 일정과 역할을 함께 확인할 수 있는 정리가 필요했습니다.",
+      "actions": ["콘텐츠 운영 정보를 주차, 매체, 콘텐츠 유형, 업로드 일정, 담당자 기준으로 정리했습니다."],
+      "actionStructure": ["주차", "매체", "콘텐츠 유형", "업로드 일정", "담당자"],
+      "resultScope": "홍보·콘텐츠 운영 성과입니다. 사업 전체의 사업성과를 의미하지 않습니다.",
+      "results": [
+        { "value": "50+", "label": "Contents Published" },
+        { "value": "약 92K", "label": "Instagram Views" },
+        { "value": "약 3K", "label": "Profile Visits" },
+        { "value": "약 2×", "label": "Follower Growth" }
+      ],
+      "skills": ["Field Operations", "Communication", "Content Production"],
+      "lessons": "사업이 실제 현장에서 실행될 때 일정과 역할을 분명히 하고, 활동을 기록하며, 필요한 정보를 공유하는 일이 중요하다는 것을 배웠습니다. 이러한 운영 정보를 구조화하는 것이 일상적인 실행의 안정성과 연결된다는 점을 체감했습니다.",
+      "transferable": ["Program Operations", "Coordination", "Communication", "Documentation", "Schedule Organization", "Field Understanding", "Performance Tracking"],
+      "images": []
+    },
+    {
+      "id": "research-data-analysis",
+      "category": "Research & Data",
+      "evidence": [{ "competency": "research-data", "label": "조사 설계·SPSS 분석 경험" }],
+      "title": "Research & Data Analysis",
+      "subtitle": "사회복지·심리학 연구를 통한 조사 설계와 데이터 해석 경험",
+      "period": "",
+      "location": "",
+      "role": "사회복지·심리 연구 및 조사·분석",
+      "summary": "사회복지·심리 연구에서 설문과 인터뷰, SPSS 기반 조사·분석을 경험했습니다.",
+      "overview": "사회복지와 심리학을 공부하며 연구 프로젝트를 수행했습니다. 설문과 연구 설계, 인터뷰, 정량 분석, 결과 해석을 경험했습니다.",
+      "context": "사회복지·심리학을 공부하는 과정에서 수행한 연구 프로젝트 경험입니다.",
+      "responsibilities": ["Survey Design", "Research Design", "Interview", "Quantitative Analysis", "Result Interpretation"],
+      "methods": { "title": "SPSS ANALYSIS", "items": ["Factor Analysis", "Reliability Analysis", "t-test", "ANOVA", "Regression", "Mediation Analysis"] },
+      "actions": [],
+      "results": [],
+      "skills": ["SPSS", "Survey Research", "Interview", "Quantitative Analysis"],
+      "lessons": "연구 설계와 분석 결과를 함께 살펴보며 자료를 해석하는 경험을 쌓았습니다. 근거를 바탕으로 문제를 이해하고 결과의 의미를 설명하는 기초 역량으로 연결하고자 합니다.",
+      "contribution": "사회복지·심리학 연구에서 쌓은 조사·분석 경험을 바탕으로, 국제개발협력 분야의 성과 자료와 데이터 기반 업무를 이해하는 데 기여하고자 합니다.",
+      "transferable": ["Evidence-based Thinking", "Quantitative Analysis", "Data Interpretation"],
+      "images": []
+    },
+    {
+      "id": "field-service-operations",
+      "category": "Field & Service Operations",
+      "evidence": [{ "competency": "communication-coordination", "label": "약 4년간 관객 응대·현장 협업" }],
+      "title": "Field & Service Operations",
+      "subtitle": "약 4년간의 공연장 현장 안내와 관객 응대 경험",
+      "period": "약 4년",
+      "location": "공연장",
+      "role": "공연장 현장 안내",
+      "summary": "약 4년간 공연장에서 관객 응대, 안전 안내, 민원 대응과 단체 관객 안내를 수행하며 다양한 현장 상황에 대응했습니다.",
+      "overview": "약 4년간 공연장에서 현장 안내 업무를 수행했습니다. 관객과 직접 소통하고 신규 인력과 협업하며 예상치 못한 현장 상황에 대응한 경험입니다.",
+      "context": "공연장 현장에서 개인 관객과 단체 관객을 안내하고, 동료 및 신규 인력과 함께 업무를 수행했습니다.",
+      "responsibilities": ["관객 응대", "안전 안내", "민원 대응", "단체 관객 안내", "신규 인력과 협업", "예상치 못한 현장 상황 대응"],
+      "actions": [],
+      "results": [],
+      "skills": ["Field Operations", "Communication", "Issue Response", "Teamwork"],
+      "lessons": "관객의 문의와 현장 상황에 맞춰 안내하고 동료와 협업하는 경험을 쌓았습니다. 상대의 상황을 파악해 소통하고, 예상치 못한 문제에 대응하는 현장 역량으로 연결하고자 합니다.",
+      "contribution": "관객을 직접 응대하며 쌓은 소통과 상황 대응 경험을 바탕으로, YP 실무에서 현장 관계자와 소통하고 팀과 협업하는 데 기여하고자 합니다.",
+      "transferable": ["Field Operations", "Communication", "Issue Response", "Teamwork", "Stakeholder-facing Experience"],
+      "images": []
+    }
+  ]
+}

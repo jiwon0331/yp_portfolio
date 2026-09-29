@@ -13,8 +13,8 @@
 - `assets/documents/`: 이력서 PDF 등을 추가할 위치
 - `scripts/build.mjs`: 공개 파일만 `outputs/site`로 복사하고 배포 주소 반영
 - `.github/workflows/pages.yml`: 수동 실행 GitHub Pages 배포 워크플로
-- `work/`: 검수용 코드·도구·스크린샷 (배포 제외)
-- `outputs/`: 생성된 배포본·검수 보고서 (Git 제외)
+- `outputs/verification-archive.zip`: 검수 코드·스크린샷 보관본 (사이트 운영에 불필요)
+- `outputs/`: 배포본·검수 보고서·보관 ZIP (Git 제외)
 
 ## 로컬 확인
 
