@@ -23,27 +23,14 @@
       "overview": "파라과이 아순시온의 노인복지센터를 기반으로 KOICA 프로젝트 봉사단 활동에 참여했습니다. 홍보·캠페인팀 구성원으로 프로그램과 캠페인, 콘텐츠 제작을 수행하며 국제개발협력 사업의 현장 실행 과정을 경험했습니다.",
       "responsibilities": [
         "온라인 홍보 콘텐츠 제작 및 업로드",
-        "인스타그램, 블로그, YouTube 채널 운영 참여",
-        "오프라인 홍보물 디자인 및 제작",
-        "만성질환 인식개선 캠페인 2회 기획·운영",
+        "오프라인 캠페인 2회 기획 및 운영",
         "온·오프라인 사진전 기획·홍보",
         "성과공유회 PPT 및 영상 제작",
-        "캠페인·홍보 관련 기획서 및 결과보고서 작성",
-        "콘텐츠 일정 및 담당 업무 구조화",
-        "홍보 성과 수치 기록 및 결과보고서 업데이트",
-        "현지 직원과 스페인어 표현 검수 및 캠페인 협업"
+        "각종 활동 관련 기획서 및 결과보고서 작성"
       ],
-      "challenge": "콘텐츠 제작과 게시 과정에서 일정 중복, 업로드 누락, 담당자 혼선 등의 운영 문제가 발생했습니다. 콘텐츠별 일정과 역할을 함께 확인할 수 있는 정리가 필요했습니다.",
-      "actions": [
-        "콘텐츠 운영 정보를 주차, 매체, 콘텐츠 유형, 업로드 일정, 담당자 기준으로 정리했습니다."
-      ],
-      "actionStructure": [
-        "주차",
-        "매체",
-        "콘텐츠 유형",
-        "업로드 일정",
-        "담당자"
-      ],
+      "challenge": "",
+      "actions": [],
+      "actionStructure": [],
       "resultScope": "홍보·캠페인팀이 운영한 채널의 팀 성과입니다. 개인의 단독 성과나 사업 전체의 성과를 의미하지 않습니다.",
       "results": [
         {
@@ -74,16 +61,8 @@
         "Communication",
         "Content Production"
       ],
-      "lessons": "사업이 실제 현장에서 실행될 때 일정과 역할을 분명히 하고, 활동을 기록하며, 필요한 정보를 공유하는 일이 중요하다는 것을 배웠습니다. 이러한 운영 정보를 구조화하는 것이 일상적인 실행의 안정성과 연결된다는 점을 체감했습니다.",
-      "transferable": [
-        "Program Operations",
-        "Coordination",
-        "Communication",
-        "Documentation",
-        "Schedule Organization",
-        "Field Understanding",
-        "Performance Tracking"
-      ],
+      "lessons": "현장에서 프로그램을 운영하며 협업과 상황 대응, 활동 기록과 보고까지 함께 경험했습니다. 계획과 다른 상황이 발생하더라도 유연하게 대응하며 맡은 활동을 이어가고자 했고, 활동이 실행에서 끝나는 것이 아니라 성과를 기록하고 정리해 결과로 남기는 과정까지 중요하다는 점을 배웠습니다. 특히 봉사단의 활동과 성과가 가시적으로 남을 수 있도록 기록과 결과 정리에 꾸준히 참여했습니다.",
+      "transferable": [],
       "images": [
         {
           "src": "assets/images/projects/koica-paraguay/1.jpg",
@@ -136,8 +115,8 @@
       "roleEn": "PR & Campaign Team",
       "resultsTitle": "Team Communication Results",
       "resultsTitleKo": "팀 홍보 운영 성과",
-      "actionTitle": "My Contributions",
-      "actionTitleKo": "주요 수행"
+      "actionTitle": "Key Activities",
+      "actionTitleKo": "주요 활동"
     },
     {
       "category": "Social Welfare Practice",
@@ -211,31 +190,27 @@
       "evidence": [
         {
           "competency": "research-data",
-          "label": "조사 설계·SPSS 분석 경험"
+          "label": "자료조사·SPSS 통계분석 경험"
         }
       ],
       "title": "Research & Data Analysis",
-      "subtitle": "사회복지·심리학 연구를 통한 조사 설계와 데이터 해석 경험",
+      "subtitle": "자료조사·이론적 배경 정리·통계분석 경험",
       "period": "2024.09–2024.12",
       "location": "",
-      "role": "사회복지·심리 연구 및 조사·분석",
-      "summary": "사회복지·심리 연구에서 설문과 인터뷰, SPSS 기반 조사·분석을 경험했습니다.",
-      "overview": "사회복지와 심리학을 공부하며 연구 프로젝트를 수행했습니다. 설문과 연구 설계, 인터뷰, 정량 분석, 결과 해석을 경험했습니다.",
-      "context": "사회복지·심리학을 공부하는 과정에서 수행한 연구 프로젝트 경험입니다. 아래 SPSS 분석 방법은 학업 전반의 활용 경험이며, 대표 연구에서 모두 사용했다는 의미는 아닙니다.",
+      "role": "팀 연구 참여",
+      "summary": "대학생의 전공 선택 동기와 진로 불안의 관계를 살펴보고, 전공 만족도의 매개효과를 분석한 팀 연구입니다.",
+      "overview": "대학생의 전공 선택 동기와 진로 불안의 관계를 살펴보고, 전공 만족도의 매개효과를 분석한 팀 연구입니다.",
+      "context": "",
       "responsibilities": [
-        "Survey Design",
-        "Research Design",
-        "Interview",
-        "Quantitative Analysis",
-        "Result Interpretation"
+        "자료조사",
+        "전공 선택 동기의 이론적 배경 정리",
+        "통계분석"
       ],
       "methods": {
-        "title": "SPSS ANALYSIS EXPERIENCE",
+        "title": "Analysis Experience",
+        "titleKo": "분석 경험",
+        "tool": "SPSS",
         "items": [
-          "요인분석 / Factor Analysis",
-          "신뢰도 분석 / Reliability Analysis",
-          "t-test",
-          "ANOVA",
           "회귀분석 / Regression Analysis",
           "매개효과 분석 / Mediation Analysis"
         ]
@@ -243,25 +218,28 @@
       "actions": [],
       "results": [],
       "skills": [
+        "자료조사 / Research",
+        "이론적 배경 정리 / Literature Review",
         "SPSS",
-        "Survey Research",
-        "Interview",
-        "Quantitative Analysis"
+        "통계분석 / Statistical Analysis",
+        "결과 해석 / Data Interpretation"
       ],
-      "lessons": "연구 설계와 분석 결과를 함께 살펴보며 자료를 해석하는 경험을 쌓았습니다. 근거를 바탕으로 문제를 이해하고 결과의 의미를 설명하는 기초 역량으로 연결하고자 합니다.",
-      "contribution": "조사 설계, 데이터 수집, 분석과 해석 경험을 국제개발협력 분야의 성과·데이터 관련 업무를 이해하는 기초 역량으로 연결하고자 합니다.",
+      "lessons": "",
+      "contribution": "",
       "transferable": [
-        "Evidence-based Thinking",
-        "Quantitative Analysis",
-        "Data Interpretation"
+        "자료조사 / Research",
+        "이론적 배경 정리 / Literature Review",
+        "SPSS",
+        "통계분석 / Statistical Analysis",
+        "결과 해석 / Data Interpretation"
       ],
       "images": [
         {
-          "src": "assets/images/projects/research/1.png",
+          "src": "assets/images/projects/research/1.jpg",
           "alt": "Research & Data Analysis 연구 자료"
         },
         {
-          "src": "assets/images/projects/research/2.png",
+          "src": "assets/images/projects/research/2.jpg",
           "alt": "Research & Data Analysis 연구 자료"
         }
       ],
@@ -269,100 +247,61 @@
       "heroImage": null,
       "titleEn": "조사·데이터 분석",
       "researchTitle": "대학생의 전공 선택 동기가 진로 불안에 미치는 영향과 전공 만족도의 매개효과",
-      "process": [
-        "Research Design",
-        "Survey",
-        "Data Collection",
-        "SPSS Analysis",
-        "Interpretation",
-        "Conclusion"
-      ]
+      "process": []
     },
     {
       "category": "Graduation Thesis / 졸업논문",
       "subtitle": "- 비바우처 실천과 이론적 역할과의 차이를 중심으로",
       "period": "2025.02",
       "location": "",
-      "role": "",
-      "summary": "사회복지사 2명의 심층 인터뷰를 통해 바우처·비바우처 실천과 이론적 역할 사이의 차이, 전문직업적 정체성을 탐색했습니다.",
-      "responsibilities": [],
+      "role": "공동논문 참여",
+      "summary": "공동논문에서 참여자 모집, 반구조화 인터뷰 질문 준비, 인터뷰 전사·분석 및 연구 결과 작성을 담당했습니다.",
+      "responsibilities": [
+        "바우처 사업 담당 사회복지사 인터뷰 참여자 모집",
+        "연구 질문에 맞춰 반구조화 인터뷰 질문 구성",
+        "인터뷰 내용 전사 및 공통 경험 정리",
+        "반복적으로 나타나는 내용을 연구 문제와 연결하여 분석",
+        "분석 결과를 바탕으로 연구 결과 작성"
+      ],
       "actions": [],
       "results": [],
       "skills": [
-        "Qualitative Research / 질적 연구",
-        "Interview / 인터뷰",
-        "Research Design / 연구 설계"
+        "자료조사 / Research",
+        "인터뷰 / Interview",
+        "질적 자료 분석 / Qualitative Analysis",
+        "정보 정리 / Information Synthesis",
+        "결과 작성 / Research Writing"
       ],
       "lessons": "",
       "transferable": [
-        "Qualitative Research / 질적 연구",
-        "Interview / 인터뷰",
-        "Research Design / 연구 설계",
-        "Data Interpretation / 자료 해석",
-        "Evidence-based Thinking / 근거 기반 사고"
+        "자료조사 / Research",
+        "인터뷰 / Interview",
+        "질적 자료 분석 / Qualitative Analysis",
+        "정보 정리 / Information Synthesis",
+        "결과 작성 / Research Writing"
       ],
       "heroImage": null,
       "images": [
         {
-          "src": "assets/images/projects/thesis/1.png",
+          "src": "assets/images/projects/thesis/1.jpg",
           "alt": "바우처 실천에서의 사회복지사 정체성 탐구 연구 자료"
         }
       ],
       "group": "main",
       "id": "thesis",
       "title": "바우처 실천에서의 사회복지사 정체성 탐구",
-      "overview": "사회복지사 2명의 인터뷰에 기반한 탐색적 연구입니다. 바우처와 비바우처 실천의 역할·정체성 차이와 사회복지 이론에서 제시하는 역할과 현장의 차이를 살펴봤습니다.",
+      "overview": "바우처 실천과 비바우처 실천에서 사회복지사가 경험하는 역할·정체성 차이, 그리고 사회복지 이론에서 제시하는 역할과 실제 바우처 실천 현장의 역할 차이를 탐구한 질적 연구입니다. 사회복지사 2명을 대상으로 한 개별 심층인터뷰를 기반으로 진행했습니다.",
       "thesis": {
-        "questions": [
-          "바우처 실천과 비바우처 실천에서 사회복지사가 경험하는 역할과 정체성은 어떻게 다른가?",
-          "이론에서 제시하는 사회복지사의 역할과 실제 바우처 실천에서 경험하는 역할·정체성은 어떻게 다른가?"
-        ],
-        "method": [
-          "사회복지사 대상 개별 심층 인터뷰",
-          "반구조화 질문 활용",
-          "대면 인터뷰 1건, 전화 인터뷰 1건",
-          "인터뷰 시간 약 30~50분",
-          "녹음 및 전사 후 질적 분석",
-          "특정 질적 분석 접근방법을 채택하지 않고 일반적인 분석 방법 활용",
-          "반복적으로 나타나는 공통점을 연구 문제와 연결하여 분석"
-        ],
-        "components": [
-          "바우처와 비바우처 프로그램의 차이",
-          "사회복지사의 전문직업적 정체성",
-          "사회복지사 이론적 역할과 현장의 차이"
-        ],
+        "questions": [],
+        "method": [],
+        "components": [],
         "findings": [
-          "참여자들은 바우처와 비바우처 실천에서 역할 차이를 경험했습니다. 차이를 받아들이는 정도는 참여자마다 달랐으나, 역할의 차이 자체는 확인되었습니다.",
-          "이론에서 제시되는 역할과 실제 바우처 실천에서 요구되는 역할 사이에도 차이가 나타났습니다. 특히 바우처 실천에서는 행정·관리적 역할의 비중이 상대적으로 크게 나타났습니다.",
-          "일부 참여자는 관리적 역할을 사회복지 실천과 분리해서만 받아들이지 않았습니다. 바우처 사업 안에서 클라이언트와의 상호작용 기회를 확대하고, 관리적 역할과 실천적 역할을 통합하며 전문직업적 정체성을 강화하려는 모습을 보였습니다."
+          "참여자들은 바우처와 비바우처 실천에서 역할 차이를 경험했습니다.",
+          "이론적 사회복지사 역할과 실제 바우처 실천의 역할 사이에도 차이가 나타났습니다.",
+          "일부 참여자는 관리적 역할과 실천적 역할을 통합하며 새로운 전문직업적 정체성을 형성하는 모습을 보였습니다."
         ],
         "scope": "인터뷰 참여자 2명에 기반한 탐색적 결과이며, 전체 사회복지사에게 일반화하지 않습니다.",
-        "process": [
-          {
-            "en": "Research Question",
-            "ko": "연구 질문"
-          },
-          {
-            "en": "Literature Review",
-            "ko": "선행연구 검토"
-          },
-          {
-            "en": "Participant Recruitment",
-            "ko": "연구 참여자 모집"
-          },
-          {
-            "en": "Semi-structured Interview",
-            "ko": "반구조화 심층인터뷰"
-          },
-          {
-            "en": "Transcription & Analysis",
-            "ko": "전사 및 분석"
-          },
-          {
-            "en": "Findings",
-            "ko": "연구 결과"
-          }
-        ]
+        "process": []
       },
       "recognition": "사회복지 우수 졸업논문 선정",
       "recognitionEn": "Excellent Graduation Thesis"
@@ -459,24 +398,22 @@
       "evidence": [
         {
           "competency": "communication-coordination",
-          "label": "약 4년간 관객 응대·현장 협업"
+          "label": "관객 안내·현장 이슈 대응 경험"
         }
       ],
-      "title": "공연장 현장 운영",
-      "subtitle": "약 4년간의 공연장 현장 안내와 관객 응대 경험",
-      "period": "약 4년",
-      "location": "공연장",
-      "role": "공연장 현장 안내",
-      "summary": "약 4년간 공연장에서 관객 응대, 안전 안내, 민원 대응과 단체 관객 안내를 수행하며 다양한 현장 상황에 대응했습니다.",
-      "overview": "약 4년간 공연장에서 현장 안내 업무를 수행했습니다. 관객과 직접 소통하고 신규 인력과 협업하며 예상치 못한 현장 상황에 대응한 경험입니다.",
-      "context": "공연장 현장에서 개인 관객과 단체 관객을 안내하고, 동료 및 신규 인력과 함께 업무를 수행했습니다.",
+      "title": "공연장 안내원 근무",
+      "subtitle": "공연장 안내원 근무 경험",
+      "period": "2022.02~",
+      "location": "",
+      "role": "공연장 안내원",
+      "summary": "약 4년간 다양한 관객을 직접 응대하며 현장 상황에 빠르게 대응하고, 정확하게 안내하는 경험을 쌓았습니다.",
+      "overview": "약 4년간 다양한 관객을 직접 응대하며 현장 상황에 빠르게 대응하고, 정확하게 안내하는 경험을 쌓았습니다.",
+      "context": "",
       "responsibilities": [
-        "관객 응대",
-        "안전 안내",
-        "민원 대응",
-        "단체 관객 안내",
-        "신규 인력과 협업",
-        "예상치 못한 현장 상황 대응"
+        "관객 안내 및 응대",
+        "공연장 안전 안내",
+        "민원 및 현장 이슈 대응",
+        "단체 관객 안내"
       ],
       "actions": [],
       "results": [],
@@ -486,19 +423,16 @@
         "Issue Response",
         "Teamwork"
       ],
-      "lessons": "관객의 문의와 현장 상황에 맞춰 안내하고 동료와 협업하는 경험을 쌓았습니다. 상대의 상황을 파악해 소통하고, 예상치 못한 문제에 대응하는 현장 역량으로 연결하고자 합니다.",
-      "contribution": "관객을 직접 응대하며 쌓은 소통과 상황 대응 경험을 바탕으로, YP 실무에서 현장 관계자와 소통하고 팀과 협업하는 데 기여하고자 합니다.",
-      "transferable": [
-        "Field Operations",
-        "Communication",
-        "Issue Response",
-        "Teamwork",
-        "Stakeholder-facing Experience"
-      ],
+      "lessons": "",
+      "contribution": "",
+      "transferable": [],
       "images": [],
       "group": "additional",
       "heroImage": null,
-      "titleEn": "Venue Operations"
+      "titleEn": "Venue Usher Experience",
+      "roleEn": "Venue Usher",
+      "actionTitle": "Key Responsibilities",
+      "actionTitleKo": "주요 업무"
     }
   ]
 }
