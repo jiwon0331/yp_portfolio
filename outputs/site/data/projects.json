@@ -1,0 +1,438 @@
+{
+  "projects": [
+    {
+      "id": "koica-paraguay",
+      "category": "International Development",
+      "title": "KOICA 프로젝트 봉사단 · Paraguay",
+      "subtitle": "노인복지센터 현장에서 홍보·콘텐츠 운영 구조를 정리한 경험",
+      "period": "2025.11–2026.02",
+      "location": "Asunción, Paraguay",
+      "role": "홍보·캠페인팀",
+      "summary": "파라과이 현장에서 프로그램, 캠페인, 홍보 활동을 수행하며 국제개발협력 사업의 실행 과정을 경험했습니다.",
+      "featured": true,
+      "evidence": [
+        {
+          "competency": "program-field-operations",
+          "label": "파라과이 프로그램·캠페인 활동"
+        },
+        {
+          "competency": "documentation-organization",
+          "label": "콘텐츠 일정·담당자 구조화"
+        }
+      ],
+      "overview": "파라과이 아순시온의 노인복지센터를 기반으로 KOICA 프로젝트 봉사단 활동에 참여했습니다. 홍보·캠페인팀 구성원으로 프로그램과 캠페인, 콘텐츠 제작을 수행하며 국제개발협력 사업의 현장 실행 과정을 경험했습니다.",
+      "responsibilities": [
+        "온라인 홍보 콘텐츠 제작 및 업로드",
+        "오프라인 캠페인 2회 기획 및 운영",
+        "온·오프라인 사진전 기획·홍보",
+        "성과공유회 PPT 및 영상 제작",
+        "각종 활동 관련 기획서 및 결과보고서 작성"
+      ],
+      "challenge": "",
+      "actions": [],
+      "actionStructure": [],
+      "resultScope": "홍보·캠페인팀이 운영한 채널의 팀 성과입니다. 개인의 단독 성과나 사업 전체의 성과를 의미하지 않습니다.",
+      "results": [
+        {
+          "value": "60",
+          "labelKo": "온라인 콘텐츠",
+          "label": "Online Contents Published",
+          "detail": "44 Instagram · 11 Blog · 5 YouTube"
+        },
+        {
+          "value": "92,207",
+          "labelKo": "Instagram 조회수",
+          "label": "Instagram Views"
+        },
+        {
+          "value": "2,599",
+          "labelKo": "프로필 방문",
+          "label": "Profile Visits"
+        },
+        {
+          "value": "약 2배 이상",
+          "labelKo": "팔로워 증가",
+          "label": "Follower Growth",
+          "detail": "200 Followers"
+        }
+      ],
+      "skills": [
+        "Field Operations",
+        "Communication",
+        "Content Production"
+      ],
+      "lessons": "현장에서 프로그램을 운영하며 협업과 상황 대응, 활동 기록과 보고까지 함께 경험했습니다. 계획과 다른 상황이 발생하더라도 유연하게 대응하며 맡은 활동을 이어가고자 했고, 활동이 실행에서 끝나는 것이 아니라 성과를 기록하고 정리해 결과로 남기는 과정까지 중요하다는 점을 배웠습니다. 특히 봉사단의 활동과 성과가 가시적으로 남을 수 있도록 기록과 결과 정리에 꾸준히 참여했습니다.",
+      "transferable": [],
+      "images": [
+        {
+          "src": "assets/images/projects/koica-paraguay/1.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/2.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/3.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/4.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/5.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/6.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/7.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/8.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/9.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/10.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/11.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        }
+      ],
+      "group": "main",
+      "heroImage": null,
+      "titleEn": "KOICA Project Volunteer · Paraguay",
+      "roleEn": "PR & Campaign Team",
+      "resultsTitle": "Team Communication Results",
+      "resultsTitleKo": "팀 홍보 운영 성과",
+      "actionTitle": "Key Activities",
+      "actionTitleKo": "주요 활동"
+    },
+    {
+      "category": "Social Welfare Practice",
+      "subtitle": "",
+      "period": "2024.06–2024.07",
+      "location": "",
+      "role": "사회복지 현장실습",
+      "summary": "사례관리·서비스제공·지역조직화 순환 실습에서 주민 상담, 프로그램과 캠페인 기획·실행, 기록과 평가를 경험했습니다.",
+      "responsibilities": [
+        "사례관리·서비스제공·지역조직화 순환 실습",
+        "주민 상담 및 상담일지 작성",
+        "프로그램 외부활동 기획",
+        "펫티켓 캠페인 기획 및 실행",
+        "자조모임 프로그램 기획",
+        "지역주민 대상 활동 운영",
+        "프로그램 계획서 및 결과보고서 작성",
+        "실습 목표 설정 및 평가"
+      ],
+      "actions": [],
+      "results": [],
+      "skills": [
+        "Program Operations / 프로그램 운영",
+        "Documentation / 문서화",
+        "Field Communication / 현장 소통"
+      ],
+      "lessons": "",
+      "transferable": [
+        "Program Operations / 프로그램 운영",
+        "Documentation / 문서화",
+        "Field Communication / 현장 소통",
+        "Participant-centered Approach / 참여자 중심 접근"
+      ],
+      "heroImage": null,
+      "images": [
+        {
+          "src": "assets/images/projects/welfare-practicum/1.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/2.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/3.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/4.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/5.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        }
+      ],
+      "group": "main",
+      "id": "welfare-practicum",
+      "title": "갈산종합사회복지관 하계실습",
+      "titleEn": "Social Welfare Center Practicum",
+      "overview": "갈산종합사회복지관에서 하계실습에 참여하며 사례관리·서비스제공·지역조직화를 순환 실습했습니다.",
+      "evidence": [
+        {
+          "competency": "program-field-operations",
+          "label": "복지관 프로그램·캠페인 기획·운영"
+        }
+      ]
+    },
+    {
+      "id": "research-data-analysis",
+      "category": "Research & Data",
+      "evidence": [
+        {
+          "competency": "research-data",
+          "label": "자료조사·SPSS 통계분석 경험"
+        }
+      ],
+      "title": "Research & Data Analysis",
+      "subtitle": "자료조사·이론적 배경 정리·통계분석 경험",
+      "period": "2024.09–2024.12",
+      "location": "",
+      "role": "팀 연구 참여",
+      "summary": "대학생의 전공 선택 동기와 진로 불안의 관계를 살펴보고, 전공 만족도의 매개효과를 분석한 팀 연구입니다.",
+      "overview": "대학생의 전공 선택 동기와 진로 불안의 관계를 살펴보고, 전공 만족도의 매개효과를 분석한 팀 연구입니다.",
+      "context": "",
+      "responsibilities": [
+        "자료조사",
+        "전공 선택 동기의 이론적 배경 정리",
+        "통계분석"
+      ],
+      "methods": {
+        "title": "Analysis Experience",
+        "titleKo": "분석 경험",
+        "tool": "SPSS",
+        "items": [
+          "회귀분석 / Regression Analysis",
+          "매개효과 분석 / Mediation Analysis"
+        ]
+      },
+      "actions": [],
+      "results": [],
+      "skills": [
+        "자료조사 / Research",
+        "이론적 배경 정리 / Literature Review",
+        "SPSS",
+        "통계분석 / Statistical Analysis",
+        "결과 해석 / Data Interpretation"
+      ],
+      "lessons": "",
+      "contribution": "",
+      "transferable": [
+        "자료조사 / Research",
+        "이론적 배경 정리 / Literature Review",
+        "SPSS",
+        "통계분석 / Statistical Analysis",
+        "결과 해석 / Data Interpretation"
+      ],
+      "images": [
+        {
+          "src": "assets/images/projects/research/1.jpg",
+          "alt": "Research & Data Analysis 연구 자료"
+        },
+        {
+          "src": "assets/images/projects/research/2.jpg",
+          "alt": "Research & Data Analysis 연구 자료"
+        }
+      ],
+      "group": "main",
+      "heroImage": null,
+      "titleEn": "조사·데이터 분석",
+      "researchTitle": "대학생의 전공 선택 동기가 진로 불안에 미치는 영향과 전공 만족도의 매개효과",
+      "process": []
+    },
+    {
+      "category": "Graduation Thesis / 졸업논문",
+      "subtitle": "- 비바우처 실천과 이론적 역할과의 차이를 중심으로",
+      "period": "2025.02",
+      "location": "",
+      "role": "공동논문 참여",
+      "summary": "공동논문에서 참여자 모집, 반구조화 인터뷰 질문 준비, 인터뷰 전사·분석 및 연구 결과 작성을 담당했습니다.",
+      "responsibilities": [
+        "바우처 사업 담당 사회복지사 인터뷰 참여자 모집",
+        "연구 질문에 맞춰 반구조화 인터뷰 질문 구성",
+        "인터뷰 내용 전사 및 공통 경험 정리",
+        "반복적으로 나타나는 내용을 연구 문제와 연결하여 분석",
+        "분석 결과를 바탕으로 연구 결과 작성"
+      ],
+      "actions": [],
+      "results": [],
+      "skills": [
+        "자료조사 / Research",
+        "인터뷰 / Interview",
+        "질적 자료 분석 / Qualitative Analysis",
+        "정보 정리 / Information Synthesis",
+        "결과 작성 / Research Writing"
+      ],
+      "lessons": "",
+      "transferable": [
+        "자료조사 / Research",
+        "인터뷰 / Interview",
+        "질적 자료 분석 / Qualitative Analysis",
+        "정보 정리 / Information Synthesis",
+        "결과 작성 / Research Writing"
+      ],
+      "heroImage": null,
+      "images": [
+        {
+          "src": "assets/images/projects/thesis/1.jpg",
+          "alt": "바우처 실천에서의 사회복지사 정체성 탐구 연구 자료"
+        }
+      ],
+      "group": "main",
+      "id": "thesis",
+      "title": "바우처 실천에서의 사회복지사 정체성 탐구",
+      "overview": "바우처 실천과 비바우처 실천에서 사회복지사가 경험하는 역할·정체성 차이, 그리고 사회복지 이론에서 제시하는 역할과 실제 바우처 실천 현장의 역할 차이를 탐구한 질적 연구입니다. 사회복지사 2명을 대상으로 한 개별 심층인터뷰를 기반으로 진행했습니다.",
+      "thesis": {
+        "questions": [],
+        "method": [],
+        "components": [],
+        "findings": [
+          "참여자들은 바우처와 비바우처 실천에서 역할 차이를 경험했습니다.",
+          "이론적 사회복지사 역할과 실제 바우처 실천의 역할 사이에도 차이가 나타났습니다.",
+          "일부 참여자는 관리적 역할과 실천적 역할을 통합하며 새로운 전문직업적 정체성을 형성하는 모습을 보였습니다."
+        ],
+        "scope": "인터뷰 참여자 2명에 기반한 탐색적 결과이며, 전체 사회복지사에게 일반화하지 않습니다.",
+        "process": []
+      },
+      "recognition": "사회복지 우수 졸업논문 선정",
+      "recognitionEn": "Excellent Graduation Thesis"
+    },
+    {
+      "category": "",
+      "subtitle": "",
+      "period": "",
+      "location": "",
+      "role": "",
+      "summary": "",
+      "responsibilities": [
+        "지역 내 쓰레기 배출 문제 관찰",
+        "문제 정의",
+        "해결방안 제안 및 직접 실행"
+      ],
+      "actions": [],
+      "results": [],
+      "skills": [],
+      "lessons": "",
+      "transferable": [],
+      "heroImage": null,
+      "images": [
+        {
+          "src": "assets/images/projects/community-project/1.jpg",
+          "alt": "지역사회복지론 팀 프로젝트 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/community-project/2.jpg",
+          "alt": "지역사회복지론 팀 프로젝트 활동 사진"
+        }
+      ],
+      "group": "additional",
+      "id": "community-welfare",
+      "title": "지역사회복지론 팀 프로젝트",
+      "titleEn": "Community Welfare Project"
+    },
+    {
+      "category": "",
+      "subtitle": "",
+      "period": "2020.07–2023",
+      "location": "",
+      "role": "",
+      "summary": "",
+      "responsibilities": [
+        "의료복지 이슈 스터디 및 토의",
+        "가상 의료복지 사례에 사회복지실천 모델 적용",
+        "학과 학술제 참여 및 수상"
+      ],
+      "actions": [],
+      "results": [],
+      "skills": [],
+      "lessons": "",
+      "transferable": [],
+      "heroImage": null,
+      "images": [
+        {
+          "src": "assets/images/projects/medicla-social-welfare/1.jpg",
+          "alt": "의료사회사업연구학회 활동 사진"
+        }
+      ],
+      "group": "additional",
+      "id": "medical-social-welfare",
+      "title": "의료사회사업연구학회",
+      "titleEn": "Medical Social Welfare Study Group"
+    },
+    {
+      "category": "",
+      "subtitle": "",
+      "period": "2021.04–2021.12",
+      "location": "",
+      "role": "",
+      "summary": "",
+      "responsibilities": [
+        "학과 모금 및 기부 활동",
+        "코로나19 시기 비대면 봉사활동 운영",
+        "학과 구성원 간 연대를 위한 비대면 프로그램 운영"
+      ],
+      "actions": [],
+      "results": [],
+      "skills": [],
+      "lessons": "",
+      "transferable": [],
+      "heroImage": null,
+      "images": [],
+      "group": "additional",
+      "id": "student-council",
+      "title": "학생회 연대사업국",
+      "titleEn": "Student Council"
+    },
+    {
+      "id": "field-service-operations",
+      "category": "Field & Service Operations",
+      "evidence": [
+        {
+          "competency": "communication-coordination",
+          "label": "관객 안내·현장 이슈 대응 경험"
+        }
+      ],
+      "title": "공연장 안내원 근무",
+      "subtitle": "공연장 안내원 근무 경험",
+      "period": "2022.02~",
+      "location": "",
+      "role": "공연장 안내원",
+      "summary": "약 4년간 다양한 관객을 직접 응대하며 현장 상황에 빠르게 대응하고, 정확하게 안내하는 경험을 쌓았습니다.",
+      "overview": "약 4년간 다양한 관객을 직접 응대하며 현장 상황에 빠르게 대응하고, 정확하게 안내하는 경험을 쌓았습니다.",
+      "context": "",
+      "responsibilities": [
+        "관객 안내 및 응대",
+        "공연장 안전 안내",
+        "민원 및 현장 이슈 대응",
+        "단체 관객 안내"
+      ],
+      "actions": [],
+      "results": [],
+      "skills": [
+        "Field Operations",
+        "Communication",
+        "Issue Response",
+        "Teamwork"
+      ],
+      "lessons": "",
+      "contribution": "",
+      "transferable": [],
+      "images": [],
+      "group": "additional",
+      "heroImage": null,
+      "titleEn": "Venue Usher Experience",
+      "roleEn": "Venue Usher",
+      "actionTitle": "Key Responsibilities",
+      "actionTitleKo": "주요 업무"
+    }
+  ]
+}
