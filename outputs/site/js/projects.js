@@ -1,5 +1,8 @@
 "use strict";
 
+// Avoid retrying a known broken image on every dialog open; refresh allows a retry.
+const failedProjectImages = new Set();
+
 document.addEventListener("DOMContentLoaded", () => {
   getProjectDialog();
   loadProjects();
@@ -292,8 +295,12 @@ function createCaseStudy(project) {
     if (project.contribution) contribution.append(projectText("p", "", project.contribution));
     if (project.transferable?.length) contribution.append(projectText("h4", "case-subheading", "TRANSFERABLE SKILLS"), projectList(project.transferable, "case-transferable"));
   }
-  const gallery = createProjectGallery(project.images);
-  if (gallery) addSection("gallery", "GALLERY").append(gallery);
+  const gallery = createProjectGallery(project.images, project.title);
+  if (gallery) {
+    const section = addSection("gallery", "GALLERY");
+    section.hidden = true;
+    section.append(gallery);
+  }
   return panel;
 }
 
@@ -317,31 +324,100 @@ function createMetrics(results) {
   return metrics;
 }
 
-function createProjectGallery(images) {
-  const entries = (Array.isArray(images) ? images : []).filter(validProjectImage).slice(0, 5);
+function createProjectGallery(images, projectTitle = "프로젝트") {
+  const entries = (Array.isArray(images) ? images : [])
+    .map(item => item && ({ ...item, alt: typeof item.alt === "string" && item.alt.trim() ? item.alt : `${projectTitle} 활동 사진·자료` }))
+    .filter(validProjectImage)
+    .sort((a, b) => {
+      const filename = item => new URL(item.src, document.baseURI).pathname.split("/").pop();
+      return filename(a).localeCompare(filename(b), undefined, { numeric: true, sensitivity: "base" });
+    });
   if (!entries.length) return null;
   const gallery = document.createElement("div");
   gallery.className = "case-gallery";
-  entries.forEach((item, index) => {
+  gallery.hidden = true;
+  gallery.setAttribute("role", "region");
+  gallery.setAttribute("aria-label", `${projectTitle} 사진·자료`);
+  gallery.setAttribute("aria-roledescription", "이미지 갤러리");
+  const viewport = document.createElement("div");
+  viewport.className = "gallery-viewport";
+  const controls = document.createElement("div");
+  controls.className = "gallery-controls";
+  const previous = projectText("button", "gallery-button", "←");
+  const next = projectText("button", "gallery-button", "→");
+  previous.type = next.type = "button";
+  previous.setAttribute("aria-label", "이전 사진");
+  next.setAttribute("aria-label", "다음 사진");
+  const counter = projectText("p", "gallery-counter", "");
+  counter.setAttribute("role", "status");
+  counter.setAttribute("aria-live", "polite");
+  counter.setAttribute("aria-atomic", "true");
+  controls.append(previous, counter, next);
+  gallery.append(viewport, controls);
+  let current = 0;
+  const slides = entries.map(item => {
     const figure = document.createElement("figure");
-    figure.className = index === 0 ? "gallery-image gallery-image-primary" : "gallery-image";
+    figure.className = "gallery-image";
+    figure.hidden = true;
+    figure.setAttribute("role", "group");
+    figure.setAttribute("aria-roledescription", "슬라이드");
+    const frame = document.createElement("div");
+    frame.className = "gallery-frame";
     const img = document.createElement("img");
     img.alt = item.alt;
-    img.loading = index === 0 ? "eager" : "lazy";
     img.decoding = "async";
-    img.src = item.src;
+    const slide = { item, figure, img };
+    img.addEventListener("load", () => {
+      gallery.hidden = false;
+      const section = gallery.closest(".case-section");
+      if (section) section.hidden = false;
+    }, { once: true });
     img.addEventListener("error", () => {
+      failedProjectImages.add(new URL(item.src, document.baseURI).href);
+      const failedIndex = slides.indexOf(slide);
+      if (failedIndex < 0) return;
+      slides.splice(failedIndex, 1);
       figure.remove();
-      if (!gallery.childElementCount) {
+      if (!slides.length) {
+        if (gallery.contains(document.activeElement)) focusGalleryFallback();
         const section = gallery.closest(".case-section");
         if (section) section.remove();
         else gallery.remove();
+        return;
       }
+      if (failedIndex < current) current -= 1;
+      show(current % slides.length);
     }, { once: true });
-    figure.append(img);
+    frame.append(img);
+    figure.append(frame);
     if (typeof item.caption === "string" && item.caption.trim()) figure.append(projectText("figcaption", "", item.caption));
-    gallery.append(figure);
+    viewport.append(figure);
+    return slide;
   });
+  function focusGalleryFallback() {
+    const target = gallery.closest("dialog")?.querySelector(".modal-title") || gallery.closest("article");
+    if (target) {
+      if (!target.hasAttribute("tabindex")) target.tabIndex = -1;
+      target.focus({ preventScroll: true });
+    }
+  }
+  function show(index) {
+    current = (index + slides.length) % slides.length;
+    slides.forEach((slide, position) => {
+      slide.figure.hidden = position !== current;
+      slide.figure.setAttribute("aria-label", `${position + 1} / ${slides.length}`);
+    });
+    const singleImage = slides.length < 2;
+    if (singleImage && controls.contains(document.activeElement)) focusGalleryFallback();
+    controls.hidden = singleImage;
+    counter.textContent = `${current + 1} / ${slides.length}`;
+    const active = slides[current];
+    // Load a slide only when requested; keep successfully loaded slides for revisits.
+    if (!active.img.hasAttribute("src")) active.img.src = active.item.src;
+  }
+  previous.addEventListener("click", () => show(current - 1));
+  next.addEventListener("click", () => show(current + 1));
+  show(0);
   return gallery;
 }
 
@@ -364,13 +440,16 @@ function projectText(tag, className, text) {
 
 function validProjectImage(item) {
   if (!item || typeof item.src !== "string" || !item.src.trim() || typeof item.alt !== "string" || !item.alt.trim()) return false;
-  try { const url = new URL(item.src, document.baseURI); return ["http:", "https:"].includes(url.protocol) && url.origin === location.origin; } catch { return false; }
+  try { const url = new URL(item.src, document.baseURI); return ["http:", "https:"].includes(url.protocol) && url.origin === location.origin && !failedProjectImages.has(url.href); } catch { return false; }
 }
 function createHeroImage(item) {
   if (!validProjectImage(item)) return null;
   const figure = document.createElement("figure"); figure.className = "project-hero-image";
   const img = document.createElement("img"); img.src = item.src; img.alt = item.alt; img.loading = "lazy"; img.decoding = "async";
-  img.addEventListener("error", () => figure.remove(), { once: true }); figure.append(img);
+  img.addEventListener("error", () => {
+    failedProjectImages.add(new URL(item.src, document.baseURI).href);
+    figure.remove();
+  }, { once: true }); figure.append(img);
   if (item.caption) figure.append(projectText("figcaption", "", item.caption));
   return figure;
 }
@@ -393,7 +472,14 @@ function renderAdditionalExperience(projects) {
     const hero = createHeroImage(project.heroImage); if (hero) article.append(hero);
     if (project.summary) article.append(projectText("p", "", project.summary));
     if (project.responsibilities?.length) article.append(projectList(project.responsibilities));
-    const gallery = createProjectGallery(project.images); if (gallery) article.append(gallery);
+    const gallery = createProjectGallery(project.images, project.title); if (gallery) article.append(gallery);
+    const button = projectText("button", "additional-case-button", "View Case Study");
+    button.type = "button";
+    button.setAttribute("aria-label", `${project.title} — View Case Study`);
+    button.setAttribute("aria-haspopup", "dialog");
+    button.setAttribute("aria-controls", "project-dialog");
+    button.addEventListener("click", () => openProjectDialog(project, button));
+    article.append(button);
     container.append(article);
   });
   region.hidden = !container.childElementCount;

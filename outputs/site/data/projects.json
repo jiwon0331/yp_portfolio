@@ -84,7 +84,52 @@
         "Field Understanding",
         "Performance Tracking"
       ],
-      "images": [],
+      "images": [
+        {
+          "src": "assets/images/projects/koica-paraguay/1.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/2.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/3.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/4.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/5.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/6.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/7.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/8.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/9.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/10.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/koica-paraguay/11.jpg",
+          "alt": "KOICA 프로젝트 봉사단 · Paraguay 활동 사진"
+        }
+      ],
       "group": "main",
       "heroImage": null,
       "titleEn": "KOICA Project Volunteer · Paraguay",
@@ -126,7 +171,28 @@
         "Participant-centered Approach / 참여자 중심 접근"
       ],
       "heroImage": null,
-      "images": [],
+      "images": [
+        {
+          "src": "assets/images/projects/welfare-practicum/1.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/2.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/3.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/4.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/welfare-practicum/5.jpg",
+          "alt": "갈산종합사회복지관 하계실습 활동 사진"
+        }
+      ],
       "group": "main",
       "id": "welfare-practicum",
       "title": "갈산종합사회복지관 하계실습",
@@ -166,12 +232,12 @@
       "methods": {
         "title": "SPSS ANALYSIS EXPERIENCE",
         "items": [
-          "Factor Analysis",
-          "Reliability Analysis",
+          "요인분석 / Factor Analysis",
+          "신뢰도 분석 / Reliability Analysis",
           "t-test",
           "ANOVA",
-          "Regression",
-          "Mediation Analysis"
+          "회귀분석 / Regression Analysis",
+          "매개효과 분석 / Mediation Analysis"
         ]
       },
       "actions": [],
@@ -189,7 +255,16 @@
         "Quantitative Analysis",
         "Data Interpretation"
       ],
-      "images": [],
+      "images": [
+        {
+          "src": "assets/images/projects/research/1.png",
+          "alt": "Research & Data Analysis 연구 자료"
+        },
+        {
+          "src": "assets/images/projects/research/2.png",
+          "alt": "Research & Data Analysis 연구 자료"
+        }
+      ],
       "group": "main",
       "heroImage": null,
       "titleEn": "조사·데이터 분석",
@@ -227,7 +302,12 @@
         "Evidence-based Thinking / 근거 기반 사고"
       ],
       "heroImage": null,
-      "images": [],
+      "images": [
+        {
+          "src": "assets/images/projects/thesis/1.png",
+          "alt": "바우처 실천에서의 사회복지사 정체성 탐구 연구 자료"
+        }
+      ],
       "group": "main",
       "id": "thesis",
       "title": "바우처 실천에서의 사회복지사 정체성 탐구",
@@ -305,7 +385,16 @@
       "lessons": "",
       "transferable": [],
       "heroImage": null,
-      "images": [],
+      "images": [
+        {
+          "src": "assets/images/projects/community-project/1.jpg",
+          "alt": "지역사회복지론 팀 프로젝트 활동 사진"
+        },
+        {
+          "src": "assets/images/projects/community-project/2.jpg",
+          "alt": "지역사회복지론 팀 프로젝트 활동 사진"
+        }
+      ],
       "group": "additional",
       "id": "community-welfare",
       "title": "지역사회복지론 팀 프로젝트",
@@ -329,7 +418,12 @@
       "lessons": "",
       "transferable": [],
       "heroImage": null,
-      "images": [],
+      "images": [
+        {
+          "src": "assets/images/projects/medicla-social-welfare/1.jpg",
+          "alt": "의료사회사업연구학회 활동 사진"
+        }
+      ],
       "group": "additional",
       "id": "medical-social-welfare",
       "title": "의료사회사업연구학회",
