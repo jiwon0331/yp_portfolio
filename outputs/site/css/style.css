@@ -220,7 +220,7 @@ section[id], main[id] { scroll-margin-top: var(--anchor-offset); }
 #learning .learning-column { margin-top: 32px; }
 .learning-bring-list { display: grid; gap: 20px; list-style: none; padding: 0; margin-top: 20px; font-size: var(--text-sm); }
 .learning-note { margin-top: 12px; color: var(--muted-text); font-size: var(--text-sm); }
-.learning-card h4 { margin-top: 12px; font-size: var(--text-base); line-height: 1.5; }
+.learning-card h3 { margin-top: 12px; color: var(--text); font-size: var(--text-base); letter-spacing: normal; line-height: 1.5; }
 
 .contact-details { display: grid; gap: 24px; }
 .contact-details dt { color: var(--muted-text); font-size: var(--text-sm); }

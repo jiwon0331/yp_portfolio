@@ -41,7 +41,7 @@ function renderEvidence(projects) {
       .filter(item => item.competency === container.dataset.evidenceFor)
       .map(item => ({ project, label: item.label })));
     if (!items.length) return;
-    container.replaceChildren(projectText("p", "evidence-label", "Related Case / 관련 사례"));
+    container.replaceChildren(projectText("p", "evidence-label", "관련 사례 / Related Case"));
     items.forEach(({ project, label }) => {
       const button = projectText("button", "evidence-button", label);
       button.type = "button";
